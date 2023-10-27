@@ -16,4 +16,5 @@
   - `g`:Press 'g' to generate a password for a service
   - `q`: Quit the application.
     
-![Login Screenshot](https://github.com/ziakhan82/software-security-mini-project/raw/main/login.PNG)
+![image](https://github.com/ziakhan82/software-security-mini-project/assets/65169811/b82c9432-90bf-4420-b1ab-3d0b4c63566f)
+
