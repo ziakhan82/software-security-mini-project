@@ -15,3 +15,4 @@
 - Once logged in, you can use the following commands:
   - `g`:Press 'g' to generate a password for a service
   - `q`: Quit the application.
+https://github.com/ziakhan82/software-security-mini-project/blob/master/login.PNG
