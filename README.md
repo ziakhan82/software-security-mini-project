@@ -46,7 +46,9 @@ During the decryption process (e.g., when retrieving stored passwords), the same
 
 **future feature**
 potential enhancement for a future update could involve implementing features that allow users to modify and remove previously stored credentials for increased flexibility and control.The security aspects of the application could be significantly enhanced by migrating to cloud-based solutions with robust security measures. Currently, the sensitive information is stored in a JSON file, which may not provide the highest level of security. Additionally, improving user experience and security could involve hiding passwords during both the password creation and login processes.
+
 **Secure Key Storage:**  Protect the encryption key derived from the master password. in the future Use secure key storage solutions like hardware security modules (HSMs) to protect the key.
+
 **Multi-Factor Authentication (MFA):** Implement MFA for added protection. Even if an attacker gains access to the hash and salt file, MFA can prevent unauthorized access to user accounts.
 
 This feature was unintentionally overlooked due to time constraints during the project's development.
