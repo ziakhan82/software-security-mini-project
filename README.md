@@ -29,7 +29,7 @@ when you are done simply press the q button it will close the application
 BCrypt is used to securely store the passwords. It provides a strong one-way hashing function that makes it computationally intensive for attackers to perform a brute-force or dictionary attack.
 When a user sets their master password, the application hashes it using BCrypt and stores the resulting hash in a file. This ensures that the raw master password is never stored directly.
 During login, the entered master password is hashed using the same salt and compared to the stored hash. This process prevents attackers from gaining access to the master password, even if they gain access to the stored hashes.
-Key Derivation for Encryption (Possibly PBKDF2):
+Key Derivation for Encryption (Possibly PBKDF2): The security of the app depends on the complexity of the master password and the length of the derived encryption key. I Encourage users to choose strong, unique master passwords.
 
  **PBKDF2 (Password-Based Key Derivation Function 2).**
 PBKDF2 is used to derive encryption key from the master password. It introduces computational complexity by performing multiple iterations of a hash function, making it resilient to brute-force attacks.
