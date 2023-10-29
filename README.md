@@ -33,7 +33,7 @@ Key Derivation for Encryption (Possibly PBKDF2):
 
  **PBKDF2 (Password-Based Key Derivation Function 2).**
 PBKDF2 is used to derive encryption key from the master password. It introduces computational complexity by performing multiple iterations of a hash function, making it resilient to brute-force attacks.
-In the application, the hashed master password and salt are used as inputs to PBKDF2 to derive an encryption key. This key is used to encrypt and decrypt stored passwords.
+In the application, the hashed master password and salt are used as inputs to PBKDF2 to derive an encryption key. This key is used to encrypt and decrypt stored passwords.The number of iterations should be set high enough to slow down any brute-force or dictionary attacks.
 
 **Using Encryption Key for Password Storage**
 
